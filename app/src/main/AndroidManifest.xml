@@ -22,7 +22,12 @@
         <activity android:name=".apotek" />
         <activity android:name=".registrasi" />
         <activity android:name=".forum" />
-        <activity android:name=".rs_terdekat"></activity>
+        <activity android:name=".rs_terdekat" />
+        <activity android:name=".daftar_rs" />
+        <activity
+            android:name=".menu_rs"
+            android:label="@string/title_activity_menu_rs"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">SistemInformasiKesehatan</string>
     <string name="rs_terdekat_text">Halaman Dua Berhasil</string>
+    <string name="jarak1">5m</string>
+    <string name="namaRS">RSUD Depok</string>
+    <string name="alamat">Jl. Merdeka No.2</string>
+    <string name="title_activity_menu_rs">menu_rs</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 </resources>
