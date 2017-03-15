@@ -2,9 +2,22 @@
     <string name="app_name">SistemInformasiKesehatan</string>
     <string name="rs_terdekat_text">Halaman Dua Berhasil</string>
     <string name="jarak1">5m</string>
-    <string name="namaRS">RSUD Depok</string>
+    <string name="namaRS">RS Mitra Keluarga</string>
     <string name="alamat">Jl. Merdeka No.2</string>
     <string name="title_activity_menu_rs">menu_rs</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <string name="deskripsi_rs">RS Mitra Keluarga Depok adalah rumah sakit swasta kelas B. Rumah sakit ini mampu memberikan pelayanan kedokteran spesialis dan subspesialis terbatas. Rumah sakit ini juga menampung pelayanan rujukan dari rumah sakit kabupaten. Tempat ini tersedia 144 tempat tidur inap dengan 27 tempat tidur VIP.  </string>
+    <string name="no_telp">085776410909</string>
+    <string name="web">mitrakeluarga.com/depok/</string>
+    <string name="email">mitrakeluarga@gmail.com</string>
+    <string name="alamat_desc">Jl. Merdeka No.2</string>
+    <string name="link">Link to G-Maps</string>
+    
+    <string-array name="jadwal">
+        <item name="Spesialisasi">-Pilih Spesialisasi-</item>
+        <item name="THT">Spesialis THT</item>
+        <item name="Bedah">Spesialis Bedah</item>
+        <item name="Saraf">Spesialis Saraf</item>
+    </string-array>
 </resources>
