@@ -58,7 +58,7 @@
     <style name="tulisanOrange">
         <item name="android:textColor">@color/orange</item>
     </style>
-    
+
     <style name="paragrafBiasa">
         <item name="android:textColor">@color/putih</item>
     </style>

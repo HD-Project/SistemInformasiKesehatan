@@ -60,7 +60,14 @@
         <activity android:name=".regis_pasien_baru" />
         <activity android:name=".regis_pasien_lama" />
         <activity android:name=".regis_berobat" />
-        <activity android:name=".ketentuan"></activity>
+        <activity android:name=".ketentuan" />
+        <activity android:name=".detail_post" />
+        <activity android:name=".detail_post_saya" />
+        <activity android:name=".post_saya" />
+        <activity
+            android:name=".list_diskusi"
+            android:label="@string/title_activity_list_diskusi"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
