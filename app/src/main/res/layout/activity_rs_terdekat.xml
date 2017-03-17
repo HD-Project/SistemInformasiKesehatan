@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="2"
     android:orientation="vertical"
+    android:weightSum="2"
     tools:context="com.hanslagrovegmail.sisteminformasikesehatan.rs_terdekat">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1">
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/drawer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include layout="@layout/activity_maps" />
+
+        </FrameLayout>
 
     </RelativeLayout>
 
@@ -62,9 +71,11 @@
             <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-                <RelativeLayout
+
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
 
                     <LinearLayout
                         android:id="@+id/linearLayout"
@@ -145,14 +156,13 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/linearLayout2"
+                        android:id="@+id/linearLayout"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:layout_alignParentLeft="true"
-                        android:layout_alignParentStart="true"
-                        android:layout_below="@+id/linearLayout"
                         android:background="@drawable/shape4"
+                        android:onClick="ke_menu_rs"
                         android:orientation="horizontal"
+                        android:padding="5dp"
                         android:textColor="#b7b7b7"
                         android:weightSum="3">
 
@@ -224,14 +234,13 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/linearLayout3"
+                        android:id="@+id/linearLayout"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:layout_alignParentLeft="true"
-                        android:layout_alignParentStart="true"
-                        android:layout_below="@+id/linearLayout2"
                         android:background="@drawable/shape4"
+                        android:onClick="ke_menu_rs"
                         android:orientation="horizontal"
+                        android:padding="5dp"
                         android:textColor="#b7b7b7"
                         android:weightSum="3">
 
@@ -303,14 +312,13 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/linearLayout4"
+                        android:id="@+id/linearLayout"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:layout_alignParentLeft="true"
-                        android:layout_alignParentStart="true"
-                        android:layout_below="@+id/linearLayout3"
                         android:background="@drawable/shape4"
+                        android:onClick="ke_menu_rs"
                         android:orientation="horizontal"
+                        android:padding="5dp"
                         android:textColor="#b7b7b7"
                         android:weightSum="3">
 
@@ -381,7 +389,165 @@
 
                     </LinearLayout>
 
-                </RelativeLayout>
+                    <LinearLayout
+                        android:id="@+id/linearLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:background="@drawable/shape4"
+                        android:onClick="ke_menu_rs"
+                        android:orientation="horizontal"
+                        android:padding="5dp"
+                        android:textColor="#b7b7b7"
+                        android:weightSum="3">
+
+                        <RelativeLayout
+                            android:layout_width="250dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp">
+
+                            <ImageView
+                                android:id="@+id/imageView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/rskeluarga" />
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:weightSum="2">
+
+                            <TextView
+                                style="@style/tulisanPutih"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center_vertical"
+                                android:text="@string/namaRS" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center_vertical"
+                                android:text="@string/alamat"
+                                android:textColor="@color/putih" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="250dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp"
+                            android:weightSum="2">
+
+                            <ImageView
+                                android:id="@+id/imageView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/white_car" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="@string/jarak1"
+                                android:textColor="@color/putih" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:background="@drawable/shape4"
+                        android:onClick="ke_menu_rs"
+                        android:orientation="horizontal"
+                        android:padding="5dp"
+                        android:textColor="#b7b7b7"
+                        android:weightSum="3">
+
+                        <RelativeLayout
+                            android:layout_width="250dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp">
+
+                            <ImageView
+                                android:id="@+id/imageView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/rskeluarga" />
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:weightSum="2">
+
+                            <TextView
+                                style="@style/tulisanPutih"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center_vertical"
+                                android:text="@string/namaRS" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center_vertical"
+                                android:text="@string/alamat"
+                                android:textColor="@color/putih" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="250dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp"
+                            android:weightSum="2">
+
+                            <ImageView
+                                android:id="@+id/imageView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/white_car" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="@string/jarak1"
+                                android:textColor="@color/putih" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
 
             </ScrollView>
 

@@ -13,7 +13,7 @@
     <string name="email">mitrakeluarga@gmail.com</string>
     <string name="alamat_desc">Jl. Merdeka No.2</string>
     <string name="link">Link to G-Maps</string>
-    
+
     <string-array name="jadwal">
         <item name="Spesialisasi">-Pilih Spesialisasi-</item>
         <item name="THT">Spesialis THT</item>
@@ -23,4 +23,42 @@
 
     <string name="namaDokter">Dr. Muhammad</string>
     <string name="spesialis">Spesialis Anak</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="google_maps_key">AIzaSyDQHAvNY1NOmVqc-Ooflyj6utMIgwHL11s</string>
+
+    <string name="namaApotek">Apotek Roxy</string>
+    <string name="namaKlinik">Klinik Medica</string>
+    <string name="jamBuka">09.00 - 21.00 WIB</string>
+
+    <string-array name="jenis_kelamin">
+        <item name="">-Pilih jenis kelamin-</item>
+        <item name="laki-laki">Laki-laki</item>
+        <item name="perempuan">Perempuan</item>
+    </string-array>
+
+    <string-array name="poli">
+        <item name="">-Pilih Poli-</item>
+        <item name="THT">Poli THT</item>
+        <item name="Bedah">Poli Bedah</item>
+        <item name="Saraf">Poli Saraf</item>
+    </string-array>
+
+    <string-array name="dokter">
+        <item name="">-Pilih Dokter-</item>
+        <item name="hadi">Dr. Hadi</item>
+        <item name="kahar">Dr. Kahar</item>
+        <item name="agus">Dr. Agus</item>
+        <item name="diana">Dr. Diana</item>
+        <item name="desi">Dr. Desi</item>
+    </string-array>
+
+    <string name="ketentuan1">Registrasi dapat dilakukan setiap saat dan hanya 1 kali (1 No.HP berlaku untuk 1 pasien) </string>
+    <string name="ketentuan2">Setelah pasien melakukan registrasi akan mendapatkan SMS balasan konfirmasi, jika belum mendapat SMS balasan mohon cek kembali format pengetikan SMS  </string>
+    <string name="ketentuan3">Pendaftaran poli rawat jalan dilakukan pukul 03.00 s/d 06.00 pada hari pasien akan berobat    </string>
+    <string name="ketentuan4">Pasien yang belum memiliki KTP, dapat mengetik 123 pada kode NIK  </string>
+    <string name="ketentuan5">Kolom tanggal lahir diisi: tanggal 2 digit/ bulan 2 digit/ tahun 4 digit      </string>
+    <string name="ketentuan6">No. RM adalah nomor yang tertera pada kartu berobat yang terdiri dari 6 digit, bila pasien tidak mengetahui nomor rekam medis maka No.RM diisi 0 </string>
+    <string name="ketentuan7">Pasien daftar ulang kembali di loket pendaftaran RSUD Kota Depok pada waktu yang telah ditetapkan dalam balasan SMS</string>
+
 </resources>

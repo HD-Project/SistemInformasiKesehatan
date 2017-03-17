@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:gravity="center"
-            android:text="@string/namaRS"
+            android:text="@string/namaKlinik"
             android:textSize="28dp" />
 
         <ImageView
@@ -125,7 +125,7 @@
                 android:layout_marginStart="19dp"
                 android:layout_toEndOf="@+id/imageView2"
                 android:layout_toRightOf="@+id/imageView2"
-                android:text="@string/email"
+                android:text="@string/web"
                 android:textColor="@color/putih" />
 
         </RelativeLayout>
@@ -151,7 +151,7 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
                 android:layout_marginStart="10dp"
-                app:srcCompat="@mipmap/icon_email" />
+                app:srcCompat="@mipmap/icon_clock" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -163,7 +163,7 @@
                 android:layout_marginStart="19dp"
                 android:layout_toEndOf="@+id/imageView2"
                 android:layout_toRightOf="@+id/imageView2"
-                android:text="@string/email"
+                android:text="@string/jamBuka"
                 android:textColor="@color/putih" />
 
         </RelativeLayout>

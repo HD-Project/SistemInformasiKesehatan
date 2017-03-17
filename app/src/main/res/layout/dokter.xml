@@ -37,12 +37,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:weightSum="2"
+                    android:padding="10dp"
                     android:layout_marginBottom="10dp"
-                    android:id="@+id/linearLayout6">
+                    android:id="@+id/linearLayout6"
+                    android:background="@drawable/border_style">
+
                     <ImageView
+                        android:id="@+id/imageView3"
                         android:layout_width="132dp"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/hadi"/>
+                        app:srcCompat="@drawable/hadi" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -75,12 +79,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:weightSum="2"
+                    android:padding="10dp"
                     android:layout_marginBottom="10dp"
-                    android:id="@+id/linearLayout6">
+                    android:background="@drawable/border_style">
+
                     <ImageView
+                        android:id="@+id/imageView3"
                         android:layout_width="132dp"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/hadi"/>
+                        app:srcCompat="@drawable/hadi" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -113,12 +120,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:weightSum="2"
+                    android:padding="10dp"
                     android:layout_marginBottom="10dp"
-                    android:id="@+id/linearLayout6">
+                    android:background="@drawable/border_style">
+
                     <ImageView
+                        android:id="@+id/imageView3"
                         android:layout_width="132dp"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/hadi"/>
+                        app:srcCompat="@drawable/hadi" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -151,12 +161,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:weightSum="2"
+                    android:padding="10dp"
                     android:layout_marginBottom="10dp"
-                    android:id="@+id/linearLayout6">
+                    android:background="@drawable/border_style">
+
                     <ImageView
+                        android:id="@+id/imageView3"
                         android:layout_width="132dp"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/hadi"/>
+                        app:srcCompat="@drawable/hadi" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -189,12 +202,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:weightSum="2"
+                    android:padding="10dp"
                     android:layout_marginBottom="10dp"
-                    android:id="@+id/linearLayout6">
+                    android:background="@drawable/border_style">
+
                     <ImageView
+                        android:id="@+id/imageView3"
                         android:layout_width="132dp"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/hadi"/>
+                        app:srcCompat="@drawable/hadi" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -227,12 +243,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:weightSum="2"
+                    android:padding="10dp"
                     android:layout_marginBottom="10dp"
-                    android:id="@+id/linearLayout6">
+                    android:background="@drawable/border_style">
+
                     <ImageView
+                        android:id="@+id/imageView3"
                         android:layout_width="132dp"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/hadi"/>
+                        app:srcCompat="@drawable/hadi" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -265,12 +284,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:weightSum="2"
-                    android:layout_marginBottom="100dp"
-                    android:id="@+id/linearLayout6">
+                    android:padding="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/border_style">
+
                     <ImageView
+                        android:id="@+id/imageView3"
                         android:layout_width="132dp"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/hadi"/>
+                        app:srcCompat="@drawable/hadi" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -298,7 +320,6 @@
                     </LinearLayout>
 
                 </LinearLayout>
-
 
 
 
