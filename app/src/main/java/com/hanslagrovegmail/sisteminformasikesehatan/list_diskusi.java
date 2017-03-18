@@ -1,5 +1,6 @@
 package com.hanslagrovegmail.sisteminformasikesehatan;
 
+import android.content.Intent;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -153,6 +154,11 @@ public class list_diskusi extends AppCompatActivity {
 
             }
             return null;
+        }
+
+        public void ke_detail_post (View view){
+            Intent next = new Intent(list_diskusi.this, detail_post.class);
+            startActivity(next);
         }
     }
 }
