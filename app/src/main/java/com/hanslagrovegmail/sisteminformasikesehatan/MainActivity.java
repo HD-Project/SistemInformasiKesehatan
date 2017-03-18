@@ -23,12 +23,12 @@ public class MainActivity extends AppCompatActivity {
 
         circleMenu = (CircleMenu) findViewById(R.id.circle_menu);
 
-        circleMenu.setMainMenu(Color.parseColor("#CDCDCD"), R.mipmap.icon_menu, R.mipmap.icon_cancel);
-        circleMenu.addSubMenu(Color.parseColor("#258CFF"), R.mipmap.icon_rs)
-                .addSubMenu(Color.parseColor("#30A400"), R.mipmap.icon_klinik)
-                .addSubMenu(Color.parseColor("#FF4B32"), R.mipmap.icon_forum)
-                .addSubMenu(Color.parseColor("#8A39FF"), R.mipmap.icon_regis)
-                .addSubMenu(Color.parseColor("#FF6A00"), R.mipmap.icon_apotek);
+        circleMenu.setMainMenu(Color.parseColor("#CDCDCD"), R.drawable.icon_menu, R.drawable.icon_cancel);
+        circleMenu.addSubMenu(Color.parseColor("#258CFF"), R.drawable.icon_rs)
+                .addSubMenu(Color.parseColor("#30A400"), R.drawable.icon_klinik)
+                .addSubMenu(Color.parseColor("#FF4B32"), R.drawable.icon_forum)
+                .addSubMenu(Color.parseColor("#8A39FF"), R.drawable.icon_regis)
+                .addSubMenu(Color.parseColor("#FF6A00"), R.drawable.icon_apotek);
 
         circleMenu.setOnMenuSelectedListener(new OnMenuSelectedListener() {
 

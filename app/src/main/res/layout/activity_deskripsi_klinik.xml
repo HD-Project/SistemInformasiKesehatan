@@ -75,7 +75,7 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
                 android:layout_marginStart="10dp"
-                app:srcCompat="@mipmap/icon_call" />
+                app:srcCompat="@drawable/icon_call" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -113,7 +113,7 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
                 android:layout_marginStart="10dp"
-                app:srcCompat="@mipmap/icon_computer" />
+                app:srcCompat="@drawable/icon_computer" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -151,7 +151,7 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
                 android:layout_marginStart="10dp"
-                app:srcCompat="@mipmap/icon_clock" />
+                app:srcCompat="@drawable/icon_clock" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -189,7 +189,7 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
                 android:layout_marginStart="10dp"
-                app:srcCompat="@mipmap/icon_location" />
+                app:srcCompat="@drawable/icon_location" />
 
             <TextView
                 android:id="@+id/textView6"
