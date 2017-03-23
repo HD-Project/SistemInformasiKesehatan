@@ -99,6 +99,16 @@
                                 android:textStyle="bold" />
                         </RelativeLayout>
 
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_weight="1">
+
+                        </LinearLayout>
+
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -127,36 +137,6 @@
                                     app:srcCompat="@drawable/icon_thump_up" />
                             </RelativeLayout>
                         </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="horizontal"
-                            android:layout_weight="1">
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:text="@string/disklike"
-                                android:gravity="center_vertical|right"
-                                android:textColor="#fff" />
-
-                            <RelativeLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:gravity="center_vertical|left">
-
-                                <ImageView
-                                    android:id="@+id/imageView6"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:layout_weight="1"
-                                    android:padding="5dp"
-                                    app:srcCompat="@drawable/icon_thump_down" />
-                            </RelativeLayout>
-                        </LinearLayout>
-
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -296,6 +276,15 @@
                             android:layout_weight="1"
                             android:orientation="horizontal">
 
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
@@ -317,36 +306,6 @@
                                     android:layout_weight="1"
                                     android:padding="5dp"
                                     app:srcCompat="@drawable/icon_thump_up" />
-                            </RelativeLayout>
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:gravity="center_vertical|right"
-                                android:text="@string/disklike"
-                                android:textColor="#fff" />
-
-                            <RelativeLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:gravity="center_vertical|left">
-
-                                <ImageView
-                                    android:id="@+id/imageView6"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:layout_weight="1"
-                                    android:padding="5dp"
-                                    app:srcCompat="@drawable/icon_thump_down" />
                             </RelativeLayout>
                         </LinearLayout>
 
@@ -459,6 +418,14 @@
                             android:layout_weight="1"
                             android:orientation="horizontal">
 
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
@@ -480,36 +447,6 @@
                                     android:layout_weight="1"
                                     android:padding="5dp"
                                     app:srcCompat="@drawable/icon_thump_up" />
-                            </RelativeLayout>
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:gravity="center_vertical|right"
-                                android:text="@string/disklike"
-                                android:textColor="#fff" />
-
-                            <RelativeLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:gravity="center_vertical|left">
-
-                                <ImageView
-                                    android:id="@+id/imageView6"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:layout_weight="1"
-                                    android:padding="5dp"
-                                    app:srcCompat="@drawable/icon_thump_down" />
                             </RelativeLayout>
                         </LinearLayout>
 

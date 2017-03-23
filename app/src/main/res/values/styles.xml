@@ -16,7 +16,7 @@
     </style>
 
     <style name="Background_main" parent="AppTheme.NoActionBar">
-        <item name="android:windowBackground">@drawable/bg</item>
+        <item name="android:windowBackground">@drawable/background</item>
     </style>
 
     <style name="Background_login" parent="AppTheme.NoActionBar">

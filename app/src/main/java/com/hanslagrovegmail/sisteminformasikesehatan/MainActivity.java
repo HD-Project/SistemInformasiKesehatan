@@ -25,10 +25,10 @@ public class MainActivity extends AppCompatActivity {
 
         circleMenu.setMainMenu(Color.parseColor("#CDCDCD"), R.drawable.icon_menu, R.drawable.icon_cancel);
         circleMenu.addSubMenu(Color.parseColor("#258CFF"), R.drawable.icon_rs)
-                .addSubMenu(Color.parseColor("#30A400"), R.drawable.icon_klinik)
+//                .addSubMenu(Color.parseColor("#30A400"), R.drawable.icon_klinik)
                 .addSubMenu(Color.parseColor("#FF4B32"), R.drawable.icon_forum)
-                .addSubMenu(Color.parseColor("#8A39FF"), R.drawable.icon_regis)
-                .addSubMenu(Color.parseColor("#FF6A00"), R.drawable.icon_apotek);
+                .addSubMenu(Color.parseColor("#8A39FF"), R.drawable.icon_regis);
+//                .addSubMenu(Color.parseColor("#FF6A00"), R.drawable.icon_apotek);
 
         circleMenu.setOnMenuSelectedListener(new OnMenuSelectedListener() {
 
@@ -48,20 +48,20 @@ public class MainActivity extends AppCompatActivity {
                                                              },1000);
 
                                                              break;
+//                                                         case 1:
+//                                                             Toast.makeText(MainActivity.this, "Menu Klinik telah dipilih", Toast.LENGTH_SHORT).show();
+//
+//                                                             Handler handler1 = new Handler();
+//                                                             handler1.postDelayed(new Runnable() {
+//                                                                 @Override
+//                                                                 public void run() {
+//                                                                     Intent next = new Intent(MainActivity.this, klinik.class);
+//                                                                     startActivity(next);
+//                                                                 }
+//                                                             },1000);
+//
+//                                                             break;
                                                          case 1:
-                                                             Toast.makeText(MainActivity.this, "Menu Klinik telah dipilih", Toast.LENGTH_SHORT).show();
-
-                                                             Handler handler1 = new Handler();
-                                                             handler1.postDelayed(new Runnable() {
-                                                                 @Override
-                                                                 public void run() {
-                                                                     Intent next = new Intent(MainActivity.this, klinik.class);
-                                                                     startActivity(next);
-                                                                 }
-                                                             },1000);
-
-                                                             break;
-                                                         case 2:
                                                              Toast.makeText(MainActivity.this, "Menu Forum telah dipilih", Toast.LENGTH_SHORT).show();
 
                                                              Handler handler2 = new Handler();
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                                                              },1000);
 
                                                              break;
-                                                         case 3:
+                                                         case 2:
                                                              Toast.makeText(MainActivity.this, "Menu Registrasi telah dipilih", Toast.LENGTH_SHORT).show();
 
                                                              Handler handler3 = new Handler();
@@ -87,19 +87,19 @@ public class MainActivity extends AppCompatActivity {
                                                              },1000);
 
                                                              break;
-                                                         case 4:
-                                                             Toast.makeText(MainActivity.this, "Menu Apotek telah dipilih", Toast.LENGTH_SHORT).show();
-
-                                                             Handler handler4 = new Handler();
-                                                             handler4.postDelayed(new Runnable() {
-                                                                 @Override
-                                                                 public void run() {
-                                                                     Intent next = new Intent(MainActivity.this, apotek.class);
-                                                                     startActivity(next);
-                                                                 }
-                                                             },1000);
-
-                                                             break;
+//                                                         case 4:
+//                                                             Toast.makeText(MainActivity.this, "Menu Apotek telah dipilih", Toast.LENGTH_SHORT).show();
+//
+//                                                             Handler handler4 = new Handler();
+//                                                             handler4.postDelayed(new Runnable() {
+//                                                                 @Override
+//                                                                 public void run() {
+//                                                                     Intent next = new Intent(MainActivity.this, apotek.class);
+//                                                                     startActivity(next);
+//                                                                 }
+//                                                             },1000);
+//
+//                                                             break;
                                                      }
                                                  }
                                              }
