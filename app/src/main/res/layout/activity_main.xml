@@ -59,7 +59,13 @@
         android:layout_height="wrap_content"
         android:layout_weight="1">
 
-
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/popRS"
+            android:text="Rumah Sakit"
+            android:gravity="center"
+            android:textColor="@color/putih"/>
 
         <com.hitomi.cmlibrary.CircleMenu
             android:id="@+id/circle_menu"
